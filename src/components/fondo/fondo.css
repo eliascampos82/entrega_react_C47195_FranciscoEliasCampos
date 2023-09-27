@@ -1,0 +1,49 @@
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    height: 110%; 
+    position: relative;
+    margin-bottom: 25px;
+}
+.marca img{
+    position: relative;
+    left: 30%;
+    width: 60%; 
+    height: 100%;
+    bottom: 20%;
+    top: -10px;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+.marca_texto{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 2;
+}
+.marca_texto h2{
+    margin: 0 0 0 60px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    
+}
+.marca_texto h2 span{
+    font-size: 2.5em;
+    
+}
+.super{
+    position: relative;
+    left: 65px;
+    bottom: 60px;
+    color: red;
+    font-style: italic;
+}
+.marca_texto p{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 55px ;
+    margin: 0;
+    top: -60px;
+}
